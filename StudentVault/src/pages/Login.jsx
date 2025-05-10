@@ -50,7 +50,7 @@ const Login = () => {
       <div className="card shadow-sm col-12 col-md-6 col-lg-4">
         <div className="card-body p-4">
           <div className="text-center mb-4">
-            <h1 className="text-primary fw-bold">StudentTracker</h1>
+            <h1 className="text-primary fw-bold">StudentVault</h1>
             <h2 className="fs-4 fw-semibold">
               {isRegister ? "Create Account" : "Welcome Back!"}
             </h2>
@@ -86,11 +86,7 @@ const Login = () => {
               />
             </div>
             
-            {!isRegister && (
-              <div className="text-end mb-3">
-                <a href="#" className="text-decoration-none small">Forgot password?</a>
-              </div>
-            )}
+           
             
             <button 
               type="submit" 
